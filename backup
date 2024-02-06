@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML&CSS練習</title>
+</head>
+<body>
+    <!-- テストコメントです -->
+    <H1>これからHTML&CSSのテストを行います</H1>
+  <h2><p>目標</p></h2> 
+    <ol>
+        <li>HTMLタグの基本的な使い方を復習する</li>
+        <li>CSSで形を整える</li>
+        <li>実際に簡単なページを作成する</li>
+    </ol>
+
+</body>
+</html>

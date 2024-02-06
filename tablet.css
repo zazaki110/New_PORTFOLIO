@@ -1,0 +1,670 @@
+
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+button.top_bu {
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 6vw;
+}
+
+button.about_bu {
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 6vw;
+}
+
+button.skill_bu {
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 6vw;
+}
+
+button.works_bu {
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 6vw;
+}
+
+button.contact_bu {
+    cursor: pointer;
+    cursor: hand;
+    border: none;
+    background: transparent;
+    font-size: 6vw;
+}
+
+div.Top_pos {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 0px;
+
+}
+
+div.Top_img {
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+img.Top_Pic {
+    width: 100%;
+    height: 100%;
+}
+
+p.Top_PORTFOLIO {
+    position: absolute;
+    top: 40%;
+    font-size: 10vw;
+    color: rgb(0, 0, 0);
+}
+
+button.About_button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3vw;
+    height: 7%;
+    width: 15%;
+    color: #ffffff;
+    background-color: rgb(0, 195, 255);
+
+}
+
+
+/*About範囲*/
+
+
+div.About {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+div.about_pos {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    height: 0px;
+
+}
+
+p.About {
+
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 10vw;
+    height: 2em;
+    width: 5em;
+}
+
+div.My_pic {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+}
+
+img.My_img_pic {
+
+    width: 70%;
+    height: 85%;
+
+}
+
+p.My_profile {
+
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 2.2vw;
+}
+
+@media screen and (max-height: 1100px) {
+    /* 768pxまでの縦幅の場合に適応される */
+    p.My_profile {
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        font-size: 1.5vw;
+        }
+    }
+
+
+
+button.Skill_button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3vw;
+    height: 7%;
+    width: 15%;
+    color: #ffffff;
+    background-color: rgb(0, 195, 255);
+
+}
+
+
+/*About範囲*/
+
+
+/*Skill範囲*/
+
+
+
+div.Skill {
+    position: relative;
+    background-color: rgb(29, 128, 159);
+    color: rgb(0, 136, 255);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+div.skill_pos {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    height: 0px;
+
+}
+
+p.Skill {
+
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 10vw;
+    height: 2em;
+    width: 5em;
+    color: rgb(255, 255, 255);
+
+}
+
+div.My_skills {
+
+    position: absolute;
+    top: 48%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 50%;
+    height: 40%;
+}
+
+img.My_img_skills {
+
+    width: 140%;
+    height: 130%;
+
+}
+
+button.Works_button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3vw;
+    height: 7%;
+    width: 15%;
+    color: #ffffff;
+    background-color: rgb(0, 195, 255);
+
+}
+
+/*Skill範囲*/
+
+
+/*Works範囲*/
+
+
+div.Works {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+div.works_pos {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    height: 0px;
+
+}
+
+p.Works {
+
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 10vw;
+    height: 2em;
+    width: 5em;
+    color: rgb(0, 0, 0);
+
+}
+
+div.My_Works1 {
+    position: relative;
+    left: 78%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    /*  上・右・下・左 で余白を設定   */
+    margin: 0px 0px 0px 0px;
+    width: 43%;
+    height: 55%;
+}
+
+div.My_Works1_git {
+
+    position: relative;
+    top: 3.8%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 50%;
+
+}
+
+div.My_Works2_git {
+
+    position: relative;
+    top: 3.8%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 50%;
+}
+
+img.My_img_Kakeibo_git {
+    width: 20%;
+    height: 20%;
+
+}
+
+img.My_img_Unity_git {
+    width: 20%;
+    height: 20%;
+
+}
+
+
+
+p.My_Works1_name {
+
+    font-size: 2.7vw;
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    top: 75%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+p.My_Works1_setumei {
+
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 81%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+p.My_Works1_language {
+
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 87%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+p.My_testaccount {
+
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 93%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+p.My_testaccount_mail {
+
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 98%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+p.My_testaccount_pass {
+    font-size: 1.5vw;
+    color: black;
+    position: absolute;
+    top: 103%;
+    left: 17.1%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+div.My_Works2 {
+
+    position: relative;
+    top: 2%;
+    left: 34%;
+    width: 43%;
+    height: 55%;
+    transform: translate(-50%, -50%);
+    /*  上・右・下・左 で余白を設定   */
+    margin: 0px 0px 0px 0px;
+}
+
+
+p.My_Works2_name {
+
+    font-size: 2.7vw;
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    top: 75%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+}
+
+p.My_Works2_setumei {
+
+    font-size: 2vw;
+    color: black;
+    position: absolute;
+    top: 83%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+p.My_Works2_language {
+
+    font-size: 2vw;
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 9.7%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+img.My_img_Kakeibo {
+    width: 80%;
+    height: 70%;
+
+}
+
+img.My_img_Unity {
+
+    width: 80%;
+    height: 70%;
+}
+
+
+button.Contact_button {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3vw;
+    height: 7%;
+    width: 15%;
+    color: #ffffff;
+    background-color: rgb(0, 195, 255);
+
+}
+
+/*Works範囲*/
+
+
+
+
+
+
+/*Contact範囲*/
+
+
+div.Contact {
+    position: relative;
+    background-color: rgb(53, 51, 51);
+    color: aliceblue;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+div.Contact_pos {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 0px;
+
+}
+
+p.My_Contact {
+
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 10vw;
+    height: 2em;
+    width: 5em;
+    color: rgb(255, 255, 255);
+
+}
+
+div.my_Phone {
+    position: relative;
+    left: 28%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    /*  上・右・下・左 で余白を設定   */
+    margin: 0px 0px 0px 0px;
+    width: 43%;
+    height: 40%;
+}
+
+div.my_Mail {
+    position: relative;
+    left: 77%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    /*  上・右・下・左 で余白を設定   */
+    margin: 0px 0px 0px 0px;
+    width: 43%;
+    height: 40%;
+}
+
+p.my_mail_number {
+    position: relative;
+    left: 39%;
+    top: -12px;
+    font-size: 1.9vw;
+    color: #ffffff;
+    height: 10vh;
+    width: 30vw;
+
+}
+
+img.my_mailaddress {
+
+    width: 80%;
+    height: 70%;
+}
+
+img.my_Phone_number {
+
+    width: 80%;
+    height: 70%;
+}
+
+div.Copyright {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100%;
+    height: 3vh;
+}
+
+p.My_copyright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 2.3vw;
+}
+
+@media screen and (max-height: 1200px) {
+    /* 768pxまでの縦幅の場合に適応される */
+    p.My_copyright {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        font-size: 1.3vw;
+        }
+    }
+
+
+div.My_Contact_git {
+
+    position: absolute;
+    top: 88%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 30%;
+}
+
+img.My_img_Contact_git {
+    width: 30%;
+    height: 30%;
+
+}
+
+button.TOP_return {
+    position: absolute;
+    top: 92%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 8%;
+    height: 6%;
+
+
+}
+
+img.top_pic {
+    width: 90%;
+    height: 90%;
+
+}
+
+/*Contact範囲*/
+
+
+
+header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+
+    /* box-shadow: 0 0 5px rgb(255, 255, 255);*/
+}
+
+nav {
+
+    text-align: center;
+    height: 10vh;
+}
+
+nav ul {
+    position: relative;
+    left: -3%;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 17%;
+
+    /* ここで項目の幅を指定します */
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* {
+	outline: 1px solid magenta;
+}*/
